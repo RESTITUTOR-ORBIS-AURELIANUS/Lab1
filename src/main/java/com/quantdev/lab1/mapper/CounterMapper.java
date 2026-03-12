@@ -1,8 +1,7 @@
 package com.quantdev.lab1.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import com.quantdev.lab1.entity.User;
+import org.apache.ibatis.annotations.*;
 
 @Mapper
 public interface CounterMapper {
